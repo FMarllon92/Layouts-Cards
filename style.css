@@ -1,0 +1,74 @@
+body{
+    background-image: url(bg-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+}
+
+.curso{
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 2px;
+}
+
+.slogan{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    color: white;
+    background-color: #2B2C30;
+    padding: 10px;
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+.box-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: white;
+    width: 78vw;
+    height: 100%;
+    padding: 10px;
+}
+
+.cards{
+    background-color: #2B2C30;
+    color: white;
+}
+
+.Seletores{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-start;
+    text-transform: uppercase;
+    background-color: #2B2C30;
+    color: white;
+    padding: 1px;
+    margin: 5px;
+    border-bottom: 1px solid white;
+    text-transform: uppercase;
+}
+
+.cards:hover{
+    text-decoration: underline;
+    transform: translate(6px);
+    transform: skewY(5px); 
+}
+
