@@ -2,14 +2,13 @@ body{
     background-image: url(imagens/bg-2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100%;
-    height: 100%;
-    margin: 0px;
+    padding: 5px;
 }
 
 .header{
     display: flex;
     justify-content: center;
+    padding: 5px;
 }
 
 .curso{
@@ -18,7 +17,7 @@ body{
     color: white;
     text-transform: uppercase;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
 }
 
 .slogan{
@@ -42,7 +41,7 @@ main{
     justify-content: space-around;
     flex-wrap: wrap;
     background-color: white;
-    width: 78vw;
+    width: 70vw;
     height: 100%;
     padding: 10px;
 }
